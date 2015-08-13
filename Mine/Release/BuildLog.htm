@@ -1,0 +1,59 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=gb2312">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=arial size=+3>
+Build Log
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- Build started: Project: Mine, Configuration: Release|Win32 -------
+</h3>
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Command Lines
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Creating temporary file "f:\Mine\Release\RSP000006.rsp" with contents
+[
+/O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FD /EHsc /MT /Yc"stdafx.h" /Fp".\Release/Mine.pch" /Fo".\Release/" /Fd".\Release/" /W3 /c /TP
+.\StdAfx.cpp
+]
+Creating command line "cl.exe @f:\Mine\Release\RSP000006.rsp /nologo"
+Creating temporary file "f:\Mine\Release\RSP000007.rsp" with contents
+[
+/O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FD /EHsc /MT /Yu"stdafx.h" /Fp".\Release/Mine.pch" /Fo".\Release/" /Fd".\Release/" /W3 /c /TP
+.\NEWRECORD.cpp
+.\MineWnd.cpp
+.\Mine.cpp
+.\HEROLIST.cpp
+]
+Creating command line "cl.exe @f:\Mine\Release\RSP000007.rsp /nologo"
+Creating temporary file "f:\Mine\Release\RSP000008.rsp" with contents
+[
+/OUT:".\Release/Mine.exe" /INCREMENTAL:NO /NOLOGO /DELAYLOAD:"OleAcc.dll" /PDB:".\Release/Mine.pdb" /SUBSYSTEM:WINDOWS /MACHINE:X86 winmm.lib DelayImp.lib DelayImp.lib
+.\Release\HEROLIST.obj
+.\Release\Mine.obj
+.\Release\Mine.res
+.\Release\MineWnd.obj
+.\Release\NEWRECORD.obj
+.\Release\StdAfx.obj
+]
+Creating command line "link.exe @f:\Mine\Release\RSP000008.rsp"
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Output Window
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Compiling...
+StdAfx.cpp
+ WINVER not defined. Defaulting to 0x0501 (Windows XP and Windows .NET Server)
+Compiling...
+NEWRECORD.cpp
+MineWnd.cpp
+Mine.cpp
+HEROLIST.cpp
+Generating Code...
+Linking...
+LINK : warning LNK4089: all references to 'comdlg32.dll' discarded by /OPT:REF
+LINK : warning LNK4089: all references to 'ole32.dll' discarded by /OPT:REF
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Results
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+Build log was saved at "file://f:\Mine\Release\BuildLog.htm"
+Mine - 0 error(s), 2 warning(s)</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=arial size=+2>
+</font></table></body></html>
